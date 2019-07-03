@@ -1,0 +1,17 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#2a2d2a">
+    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+	{{ if .Description }}
+		<meta name="description" content="{{ .Description }}">
+	{{ else }}
+		<meta name="description" content="{{ $.Site.Params.description }}">
+	{{ end }}     
+	<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.png">
+	{{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
+	{{ $style := resources.Get "sass/_main.scss" | resources.ToCSS $options }}
+	<link href="{{ $style.Permalink }}" rel="stylesheet">
+	{{ if .Site.RSSLink }}<link rel="alternate" href="{{ .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}"/>{{ end }}
+</head>

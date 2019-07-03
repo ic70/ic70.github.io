@@ -1,0 +1,34 @@
+$__color_neon_carrot: 		#ee7801;
+$__color_red:               #ff0037;
+$__color_deep_blue:         #0034c4;
+$__color_heavy_metal:       #2a2d2a;
+$__color_limed_ash:         #687d68;
+$__color_gray_asparagus:    #435643;
+$__color_nandor:            #535f53;
+$__color_olive_green:       #a2b34d;
+$__color_feta:              #f0fff0;
+$__color_loafer:            #f7f7f7;
+$__color_moss_green:        #b3d6b3;
+$__color_honeysuckle:       #e5fb79;
+$__color_cactus:            #5c705c;
+$__color_lunar_green:       #3b423b;
+$__color_olive_green_20:    rgba( 162, 179, 77, 0.2 );
+
+$__default_Background_Color:            $__color_loafer;
+$__default_Color:			            $__color_heavy_metal;
+$__error:					            $__color_red;
+$__link:	  				            $__color_deep_blue;
+$__link_hover:                          $__color_red;
+
+$__table_border_color: 	   	            $__color_limed_ash;
+$__field_background_color:              lighten( $__color_loafer, 2% );
+$__field_background_color_focus: 	    lighten( $__color_loafer, 5% );
+
+$__field_border_color: 		            darken( $__color_loafer, 12% );
+$__field_border_color_focus: 		    darken( $__color_loafer, 24% );
+
+$__placeholder_color:                   lighten( $__color_heavy_metal, 3% );
+$__placeholder_focus_color:             lighten( $__color_heavy_metal, 35% );
+
+$__background_button: 		            darken( $__color_loafer, 10% );
+$__background_button_hover:             darken( $__color_loafer, 8% );

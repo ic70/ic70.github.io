@@ -1,0 +1,19 @@
+a {
+	color: $__link;
+	display: block;
+	outline: none;
+	text-decoration: none;
+	
+	&:active,
+	&:focus,
+	&:visited {
+		color: $__link;
+		text-decoration: none;
+	}
+
+	&:hover {
+		color: $__link_hover;
+		text-decoration: underline;
+	}
+
+}

@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="taxonomy-categories">
+	{{ if eq .Kind "taxonomyTerm" }}
+		<h1 class="page-title list-taxonomy">
+			{{ i18n "category_plural" }}
+		</h1>
+		<div class="taxonomy-list-box">
+			<ul class="taxonomy-list">
+				{{ range $.Site.Taxonomies.categories.ByCount }}
+					<li>
+						<a class="taxonomy-link" href="{{ .Name }}">{{ .Name | markdownify }}</a>
+						{{ if eq .Count 1 }}
+							{{ .Count }} {{ i18n "article_singular" }}
+						{{ else }}
+							{{ .Count }} {{ i18n "article_plural" }}
+						{{ end }}
+					</li>
+				{{ end }}
+			</ul>
+		</div>
+  	{{ else }}
+		<h1 class="page-title item-taxonomy">
+			{{ i18n "with_global" }} {{ i18n "category_singular" }} &#8220;{{ .Name | markdownify }}&#8221;
+		</h1>
+		{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+		{{ range $paginator.Pages }}
+			<a class="taxonomy-link" href="{{ .Permalink | relURL }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>
+			{{ if .IsTranslated }}
+				<ul class="isTranslatedArchives">
+					<li class="isTranslated-item">{{ i18n "also_available" }}</li>
+					{{ range .Translations }}
+						<li class="isTranslated-item">
+							<a href="{{ .Permalink }}"><span>{{ .Lang }}</span>: {{ .Title }}</a>
+						</li>
+					{{ end }}
+				</ul>
+			{{ end }}
+		{{ end }}
+		{{- partial "pagination.html" . -}}
+	{{ end }}
+</div>
+{{ end }}

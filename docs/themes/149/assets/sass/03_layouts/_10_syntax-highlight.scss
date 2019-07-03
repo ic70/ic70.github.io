@@ -1,0 +1,170 @@
+%extend_1 {
+	background: $__color_heavy_metal;
+	color: $__color_limed_ash;
+	font-size: 0.875rem;
+}
+
+code[class*="language-"] {
+
+	@extend %extend_1;
+
+	::-moz-selection {
+		background: $__color_gray_asparagus;
+	}
+
+	::selection {
+		background: rgba( $__color_gray_asparagus, 0.7 );
+	}
+
+}
+
+pre[class*="language-"] {
+
+	@extend %extend_1;
+
+	margin: .5em 0;
+	overflow: auto;
+	padding: 1em;
+
+	::-moz-selection {
+		background: $__color_gray_asparagus;
+	}
+	
+	::selection {
+		background: rgba( $__color_gray_asparagus, 0.7 );
+	}
+
+}
+
+pre[class*="language-"]::-moz-selection {
+	background: $__color_gray_asparagus;
+}
+
+code[class*="language-"]::-moz-selection {
+	background: $__color_gray_asparagus;
+}
+
+pre[class*="language-"]::selection {
+	background: rgba( $__color_gray_asparagus, 0.7 );
+}
+
+code[class*="language-"]::selection {
+	background: rgba( $__color_gray_asparagus, 0.7 );
+}
+
+.token {
+
+	&.comment,
+	&.prolog,
+	&.doctype,
+	&.cdata,
+	&.punctuation {
+		color: $__color_nandor;
+	}
+
+	&.tag,
+	&.operator,
+	&.number {
+		color: $__color_olive_green;
+	}
+	
+	&.property,
+	&.function {
+		color: $__color_limed_ash;
+	}
+
+	&.tag-id,
+	&.selector,
+	&.atrule-id {
+		color: $__color_feta;
+	}
+
+	&.attr-name,
+	&.important {
+		color: $__color_moss_green;
+	}
+
+	&.boolean,
+	&.string,
+	&.entity,
+	&.url,
+	&.attr-value,
+	&.keyword,
+	&.control,
+	&.directive,
+	&.unit,
+	&.statement,
+	&.regex,
+	&.atrule,
+	&.placeholder,
+	&.variable {
+		color: $__color_honeysuckle;
+	}
+
+	&.namespace {
+		opacity: 0.7;
+	}
+
+	&.entity {
+		cursor: help;
+	}
+
+	&.deleted {
+		text-decoration: line-through;
+	}
+
+	&.inserted {
+		border-bottom: 1px dotted $__color_feta;
+		text-decoration: none;
+	}
+
+	&.italic {
+		font-style: italic;
+	}
+
+	&.important,
+	&.bold {
+		font-weight: bold;
+	}
+
+}
+
+code {
+
+	&.language-javascript {
+		color: $__color_moss_green;
+	}
+
+	&.language-css,
+	&.language-scss {
+		color: $__color_honeysuckle;
+	}
+
+}
+
+.line-highlight {
+	background: $__color_olive_green_20;
+	background: linear-gradient( to right, $__color_olive_green_20 70%, rgba( 162, 179, 77, 0 ) );
+}
+
+:not( pre ) > code[class*="language-"] {
+	border-radius: .3em;
+	padding: .1em;
+}
+
+.language-css .token.string {
+	color: $__color_honeysuckle;
+}
+
+.language-scss .token.string {
+	color: $__color_honeysuckle;
+}
+
+.style .token.string {
+	color: $__color_honeysuckle;
+}
+
+pre > code.highlight {
+	outline: .4em solid $__color_cactus;
+	outline-offset: .4em;
+}

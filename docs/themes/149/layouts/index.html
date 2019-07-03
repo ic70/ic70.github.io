@@ -1,0 +1,30 @@
+{{define "main" }}
+	{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+	{{ range $paginator.Pages }}
+		<article class="entry-item">
+			<h2 class="entry-item-title">
+				<a href="{{ .Page.Permalink }}">{{ .Title }}</a>
+			</h2>
+			<time class="post-date" pubdate="pubdate" datetime="{{ .Date | dateFormat "2006-1-2" }}">
+				{{i18n .Date.Weekday}} 
+				{{.Date.Day}} 
+				{{i18n .Date.Month}} 
+				{{.Date.Year}}
+			</time>		
+			{{ if .IsTranslated }}
+				<ul class="isTranslated">
+					<li class="isTranslated-item">{{ i18n "also_available" }}</li>
+					{{ range .Translations }}
+					<li class="isTranslated-item">
+						<a href="{{ .Permalink }}"><span>{{ .Lang }}</span>: {{ .Title }}</a>
+					</li>
+					{{ end }}
+				</ul>
+			{{ end }}
+			<div class="entry-summary">
+				{{ .Summary }}
+			</div>
+		</article>
+	{{ end }}
+	{{- partial "pagination.html" . -}}
+{{ end }}

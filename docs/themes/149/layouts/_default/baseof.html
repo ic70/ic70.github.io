@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language }}" class="no-js no-svg">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div class="grid">
+            <main id="main">
+                {{- block "main" . }}{{- end }}
+            </main>
+        </div>
+        {{- partial "footer.html" . -}}
+        <script>
+            // <![CDATA[
+            search_placeholder = "{{ i18n "searchPlaceholder" }}";
+            search_placeholder_error = "{{ i18n "searchPlaceholderError" }}";
+           // ]]>
+        </script>
+        {{ $jquery := resources.Get "js/jquery.js" }}
+        {{ $main := resources.Get "js/main.js" }}
+        {{ $prism := resources.Get "js/prism.js" }}
+        {{ $script := slice $jquery $main $prism | resources.Concat "js/bundle.js" | minify | fingerprint }}
+        <script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
+    </body>
+</html>

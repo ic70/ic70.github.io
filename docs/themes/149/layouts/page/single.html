@@ -1,0 +1,20 @@
+{{ define "main" }}
+<article class="page-full">
+    <h1 class="page-full-title">
+        {{ .Title }}
+    </h1>
+	{{ if .IsTranslated }}
+		<ul class="isTranslated">
+			<li class="isTranslated-item">{{ i18n "also_available" }}</li>
+			{{ range .Translations }}
+			<li class="isTranslated-item">
+				<a href="{{ .Permalink }}"><span>{{ .Lang }}</span>: {{ .Title }}</a>
+			</li>
+			{{ end }}
+		</ul>
+    {{ end }}
+    <div class="page-full-content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

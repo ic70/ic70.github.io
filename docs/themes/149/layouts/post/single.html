@@ -1,0 +1,84 @@
+{{ define "main" }}
+<article class="entry-full">
+	<h2 class="entry-full-title">
+		{{ .Title }}
+	</h2>
+	<time class="post-date" pubdate="pubdate" datetime="{{ .Date | dateFormat "2006-1-2" }}">
+		{{i18n .Date.Weekday}} 
+		{{.Date.Day}} 
+		{{i18n .Date.Month}}
+		{{.Date.Year}}
+	</time>
+	{{ $.Scratch.Set "categoriesCounter" 0 }}
+	{{range .Params.categories}}
+	  	{{ $.Scratch.Set "categoriesCounter" (add ($.Scratch.Get "categoriesCounter") 1) }}
+	{{end}}
+	{{$maxCategories := $.Scratch.Get "categoriesCounter" }}
+	<h5 class="categories-title">
+		{{ if gt $maxCategories 0 }}
+			{{ if le $maxCategories 1 }}
+				{{ i18n "category_singular" }}
+			{{ else }}
+				{{ i18n "category_plural" }}
+			{{ end }}
+		{{ end }}
+	</h5>
+	{{ $cats := "categories" }}
+	<ul id="{{ $cats }}">
+		{{ range .Param $cats }}
+			{{ $name := . }}
+			{{ with $.Site.GetPage (printf "/%s/%s" $cats ($name | urlize)) }}
+				<li><a href="{{ .Permalink }}">{{ $name }}</a></li>
+			{{ end }}
+		{{ end }}
+	</ul>
+	{{ if .IsTranslated }}
+		<ul class="isTranslated">
+			<li class="isTranslated-item">{{ i18n "also_available" }}</li>
+			{{ range .Translations }}
+			<li class="isTranslated-item">
+				<a href="{{ .Permalink }}"><span>{{ .Lang }}</span>: {{ .Title }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	{{ end }}
+	{{ $.Scratch.Set "tagsCounter" 0 }}
+	{{range .Params.tags}}
+	  	{{ $.Scratch.Set "tagsCounter" (add ($.Scratch.Get "tagsCounter") 1) }}
+	{{end}}
+	{{$maxtags := $.Scratch.Get "tagsCounter" }}
+	<h5 class="tags-title">
+		{{ if gt $maxtags 0 }}
+			{{ if le $maxtags 1 }}
+				{{ i18n "tag_singular" }}
+			{{ else }}
+				{{ i18n "tag_plural" }}
+			{{ end }}
+		{{ end }}
+	</h5>
+	{{ $tags := "tags" }}
+	<ul id="{{ $tags }}">					
+		{{ range .Param $tags }}
+			{{ $name := . }}
+			{{ with $.Site.GetPage (printf "/%s/%s" $tags ($name | urlize)) }}
+				<li><a href="{{ .Permalink }}">{{ $name }}</a></li>
+			{{ end }}
+		{{ end }}
+	</ul>
+	<div class="entry-content">
+		{{ .Content }}
+	</div>
+	{{ range first 1 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+		<h3 id="similar-to-title">{{ i18n "similar_to" }} &#8220;{{ .Title }}&#8221;</h3>
+		<ul id="related-list">
+	{{ end }}
+	{{ range first .Site.Params.RelatedPostNumber ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+		<li class="relatedPost">
+			<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+		</li>
+	{{ end }}
+	{{ range first 1 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+		</ul>
+	{{ end }}
+</article>
+{{ end }}

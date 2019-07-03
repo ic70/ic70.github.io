@@ -1,0 +1,14 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+	width: 100%;
+}
+
+table,
+td,
+th,
+tr {
+	border: solid 1px $__table_border_color;
+	padding: 0.5em;
+}

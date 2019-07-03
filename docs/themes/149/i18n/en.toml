@@ -1,0 +1,129 @@
+[skip_main]
+other = "Skip to main content"
+
+[open_menu]
+other = "Open main menu"
+
+[open_search]
+other = "Open the search form"
+
+[search_label]
+other = "search"
+
+[search_run]
+other = "Go"
+
+[go_up]
+other = "Go up"
+
+[sitemap_link_text]
+other = "Sitemap"
+
+[sitemap_url]
+other = "sitemap"
+
+[404_msg_one]
+other = "Ooops, something went wrong..."
+
+[404_msg_two]
+other = "the server did not find what was requested"
+
+[404_back_to]
+other = "Back to"
+
+[404_go_home]
+other = "Homepage"
+
+[also_available]
+other = "also available in"
+
+[category_singular]
+other = "category"
+
+[category_plural]
+other = "categories"
+
+[tag_singular]
+other = "tag"
+
+[tag_plural]
+other = "tags"
+
+[with_global]
+other = "with"
+
+[article_singular]
+other = "article"
+
+[article_plural]
+other = "articles"
+
+[similar_to]
+other = "Articles similar to"
+
+[searchPlaceholder]
+other = "Search in the site"
+
+[searchPlaceholderError]
+other = "You did not write anything"
+
+### MONTH NAME
+
+[January]
+other = "January"
+
+[February]
+other = "February"
+
+[March]
+other = "March"
+
+[April]
+other = "April"
+
+[May]
+other = "May"
+
+[June]
+other = "June"
+
+[July]
+other = "July"
+
+[August]
+other = "August"
+
+[September]
+other = "September"
+
+[October]
+other = "October"
+
+[November]
+other = "November"
+
+[December]
+other = "December"
+
+### WEEK DAY NAME
+
+[Monday]
+other = "Monday"
+
+[Tuesday]
+other = "Tuesday"
+
+[Wednesday]
+other = "Wednesday"
+
+[Thursday]
+other = "Thursday"
+
+[Friday]
+other = "Friday"
+
+[Saturday]
+other = "Saturday"
+
+[Sunday]
+other = "Sunday"

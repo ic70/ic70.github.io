@@ -1,0 +1,32 @@
+.page-title {
+
+    &.item-taxonomy {
+        margin-bottom: 24px;
+    }
+
+}
+
+.list-taxonomy {
+    text-transform: capitalize;
+}
+
+.taxonomy-list  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.isTranslatedArchives {
+    font-family: $__sans_serif_font;
+    font-size: 0.875rem;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0 0 24px 0;
+    padding: 0;
+}
