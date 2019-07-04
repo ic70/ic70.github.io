@@ -3,297 +3,297 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/it/page/getting-started/</loc>
+    <loc>https://ic70.github.io/it/page/getting-started/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/getting-started/"
+                href="https://ic70.github.io/page/getting-started/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/page/getting-started/"
+                href="https://ic70.github.io/it/page/getting-started/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/page/intermediate-use/</loc>
+    <loc>https://ic70.github.io/it/page/intermediate-use/</loc>
     <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/intermediate-use/"
+                href="https://ic70.github.io/page/intermediate-use/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/page/intermediate-use/"
+                href="https://ic70.github.io/it/page/intermediate-use/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/categories/</loc>
+    <loc>https://ic70.github.io/it/categories/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/"
+                href="https://ic70.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/categories/"
+                href="https://ic70.github.io/it/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/post/codice/</loc>
+    <loc>https://ic70.github.io/it/post/codice/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/it/</loc>
+    <loc>https://ic70.github.io/it/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/"
+                href="https://ic70.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/"
+                href="https://ic70.github.io/it/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/post/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://example.com/it/post/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://example.com/it/tags/</loc>
+    <loc>https://ic70.github.io/it/post/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/"
+                href="https://ic70.github.io/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/tags/"
+                href="https://ic70.github.io/it/post/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/tags/code/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/it/categories/codehigh/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/it/tags/css/</loc>
+    <loc>https://ic70.github.io/it/tags/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/css/"
+                href="https://ic70.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/tags/css/"
+                href="https://ic70.github.io/it/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/tags/html/</loc>
+    <loc>https://ic70.github.io/it/tags/code/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ic70.github.io/it/categories/codehigh/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ic70.github.io/it/tags/css/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/html/"
+                href="https://ic70.github.io/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/tags/html/"
+                href="https://ic70.github.io/it/tags/css/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/tags/markdown/</loc>
+    <loc>https://ic70.github.io/it/tags/html/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/markdown/"
+                href="https://ic70.github.io/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/tags/markdown/"
+                href="https://ic70.github.io/it/tags/html/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/categories/syntax/</loc>
+    <loc>https://ic70.github.io/it/tags/markdown/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/syntax/"
+                href="https://ic70.github.io/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/categories/syntax/"
+                href="https://ic70.github.io/it/tags/markdown/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/categories/themes/</loc>
+    <loc>https://ic70.github.io/it/categories/syntax/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/categories/themes/"
+                href="https://ic70.github.io/categories/syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/categories/themes/"
+                href="https://ic70.github.io/it/categories/syntax/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/tags/themes/</loc>
+    <loc>https://ic70.github.io/it/tags/themes/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/tags/themes/"
+                href="https://ic70.github.io/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/tags/themes/"
+                href="https://ic70.github.io/it/tags/themes/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/page/</loc>
+    <loc>https://ic70.github.io/it/categories/themes/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ic70.github.io/categories/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ic70.github.io/it/categories/themes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ic70.github.io/it/page/</loc>
     <lastmod>2019-05-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/"
+                href="https://ic70.github.io/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/page/"
+                href="https://ic70.github.io/it/page/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/post/markdown-syntax/</loc>
+    <loc>https://ic70.github.io/it/post/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/markdown-syntax/"
+                href="https://ic70.github.io/post/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/post/markdown-syntax/"
+                href="https://ic70.github.io/it/post/markdown-syntax/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/post/rich-content/</loc>
+    <loc>https://ic70.github.io/it/post/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/rich-content/"
+                href="https://ic70.github.io/post/rich-content/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/post/rich-content/"
+                href="https://ic70.github.io/it/post/rich-content/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/post/placeholder-text/</loc>
+    <loc>https://ic70.github.io/it/post/placeholder-text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/placeholder-text/"
+                href="https://ic70.github.io/post/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/post/placeholder-text/"
+                href="https://ic70.github.io/it/post/placeholder-text/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/post/emoji-support/</loc>
+    <loc>https://ic70.github.io/it/post/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/post/emoji-support/"
+                href="https://ic70.github.io/post/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/post/emoji-support/"
+                href="https://ic70.github.io/it/post/emoji-support/"
                 />
   </url>
   
   <url>
-    <loc>https://example.com/it/page/advanced-use/</loc>
+    <loc>https://ic70.github.io/it/page/advanced-use/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://example.com/page/advanced-use/"
+                href="https://ic70.github.io/page/advanced-use/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://example.com/it/page/advanced-use/"
+                href="https://ic70.github.io/it/page/advanced-use/"
                 />
   </url>
   
