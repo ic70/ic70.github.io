@@ -176,22 +176,6 @@
   </url>
   
   <url>
-    <loc>https://ic70.github.io/it/tags/themes/</loc>
-    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://ic70.github.io/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://ic70.github.io/it/tags/themes/"
-                />
-  </url>
-  
-  <url>
     <loc>https://ic70.github.io/it/categories/themes/</loc>
     <lastmod>2019-06-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -204,6 +188,22 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://ic70.github.io/it/categories/themes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://ic70.github.io/it/tags/themes/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ic70.github.io/tags/themes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://ic70.github.io/it/tags/themes/"
                 />
   </url>
   
