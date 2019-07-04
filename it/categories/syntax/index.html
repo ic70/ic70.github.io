@@ -65,11 +65,30 @@
             </nav>
             <nav class="button-box">
                 
+                <button type="button" id="open-search" class="open-search">
+                    <span class="screen-reader-text">Apri form di ricerca</span>
+                    <span class="icon-button"></span>
+                </button>
+                
                 <button type="button" id="open-nav" class="open-nav">
                     <span class="screen-reader-text">Apri menu principale</span>
                     <span class="icon-button"></span>
                 </button>
             </nav>
+        </div>
+    </div>
+    
+    <div id="search-box" class="search-box">
+        <div class="grid-large">
+            <form method="get" id="search-form" class="search-form" action="/it">
+                <label class="search-field-label" for="search-form-input">
+                    <span class="screen-reader-text">cerca</span>
+                    <input type="search" id="search-form-input" class="search-form-input" name="s" placeholder="Cerca nel sito">
+                </label>
+                <button type="submit" id="search-form-submit" class="search-form-submit">
+                    <span class="icon-button"><span class="icon-button-text">Vai</span></span>
+                </button>
+            </form>
         </div>
     </div>
     
