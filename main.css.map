@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Hugo/bin/scaffold",
+	"sourceRoot": "C:/Hugo/bin/149",
 	"sources": [
 		"themes/149/assets/sass/_main.scss",
 		"themes/149/assets/sass/01_variables/_01_variables.scss",

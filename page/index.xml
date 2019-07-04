@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on ic70</title>
-    <link>https://ic70.github.io/page/</link>
-    <description>Recent content in Pages on ic70</description>
+    <title>Pages on 149</title>
+    <link>https://example.com/page/</link>
+    <description>Recent content in Pages on 149</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ic70.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>getting started</title>
-      <link>https://ic70.github.io/page/getting-started/</link>
+      <link>https://example.com/page/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ic70.github.io/page/getting-started/</guid>
+      <guid>https://example.com/page/getting-started/</guid>
       <description>Natus iusto nam ut perferendis aliquid ipsum earum laudantium odit. Vel voluptatem tempora maxime hic quidem consequatur voluptatem ut impedit. Optio rerum autem dicta quam dolore est inventore. Magni similique nisi aut. Accusamus rerum suscipit quis labore maxime.
 two Magnam commodi qui aut quos magnam est consequuntur. Perferendis quasi molestias. Quis nemo blanditiis magnam illum.</description>
     </item>
     
     <item>
       <title>intermediate use</title>
-      <link>https://ic70.github.io/page/intermediate-use/</link>
+      <link>https://example.com/page/intermediate-use/</link>
       <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ic70.github.io/page/intermediate-use/</guid>
+      <guid>https://example.com/page/intermediate-use/</guid>
       <description>Veniam velit qui totam eius et. Commodi ut sit ut debitis cumque eaque ut consequatur non. Modi ipsum qui est est impedit sint.
 two Error voluptate sunt voluptates ut. Enim repellat aut sint quia atque facilis provident et. Illo dolore laboriosam ipsa minus. In sit qui sapiente veritatis temporibus. Quis quisquam voluptas veritatis laborum neque.</description>
     </item>
     
     <item>
       <title>advanced use</title>
-      <link>https://ic70.github.io/page/advanced-use/</link>
+      <link>https://example.com/page/advanced-use/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ic70.github.io/page/advanced-use/</guid>
+      <guid>https://example.com/page/advanced-use/</guid>
       <description>Voluptatem ab quae ad. Ea laborum quis et ut tempore voluptatem. Aspernatur suscipit a error aliquid est et officiis consequatur.
 two Sed voluptatum consequatur et maiores. Corporis voluptas nesciunt veritatis aut praesentium nisi esse vero. Dolor ea asperiores. Omnis eius quibusdam incidunt. Deserunt quisquam deserunt non vitae perferendis optio. Ad voluptatem eaque voluptatibus ipsa at maxime enim eligendi et.</description>
     </item>

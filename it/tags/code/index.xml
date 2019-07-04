@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>code on ic70</title>
-    <link>https://ic70.github.io/it/tags/code/</link>
-    <description>Recent content in code on ic70</description>
+    <title>code on 149</title>
+    <link>https://example.com/it/tags/code/</link>
+    <description>Recent content in code on 149</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <lastBuildDate>Fri, 28 Jun 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ic70.github.io/it/tags/code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.com/it/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Codice</title>
-      <link>https://ic70.github.io/it/post/codice/</link>
+      <link>https://example.com/it/post/codice/</link>
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ic70.github.io/it/post/codice/</guid>
+      <guid>https://example.com/it/post/codice/</guid>
       <description>/* Theme Name: ql Theme URI: https://github.com/labsforge/ql Author: Ivan Chiappori Author URI: https://labsforge.github.io/ Description: ql Version: 0.0.1a License: GNU General Public License v2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html Tags: two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, microformats, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog Text Domain: ql This theme, like WordPress, is licensed under the GPL.</description>
     </item>
     
